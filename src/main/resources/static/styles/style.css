@@ -1,0 +1,134 @@
+body{
+	background-color: #86A4F0;
+}
+
+#titulo{
+	text-align: center;
+	text-shadow: 2px 2px 6px blue;
+	box-shadow: 2px;
+	margin: 0 auto;
+	padding: 5px;
+	width: 440px;
+	background-color: #474BE2;
+	color: #BFFBFF;
+	font-family: monospace;
+	font-size: 28px;
+	border-radius: 8px;
+	box-shadow: 4px 6px 14px rgba(0, 0, 0, 0.6);
+
+}
+
+.contenido{
+	align-content: center;
+	border-style: outset;
+	border-color: lightblue;
+	border-radius: 10px;
+	border-width: 5px;
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 70%;
+	padding: 20px;
+	background-color: lightblue;
+}
+
+#facturaTitulo{
+	font-family: consolas;
+	font-size: 22px;
+	text-align: center;
+	transition: 0.1s 0.1s;
+}
+
+#facturaTitulo:hover{
+	text-shadow: 8px 10px 22px rgba(0, 0, 0, 2);
+}
+
+#cajaCliente{
+	margin: 0 auto;
+	padding: 12px;
+	align-items: center;
+  	display: flex;
+  	justify-content: center;
+  	width: 80%;
+  	height: 40px;
+	box-shadow: 6px 8px 22px rgba(0, 0, 0, 0.6);
+	font-size: 22px;
+	font-family: consolas;
+	color: #000000;
+	border-style: outset;
+	border-color: lightgreen;
+	border-radius: 3px;
+	transition: 0.1s 0.1s;
+}
+
+#cajaCliente:hover{
+	transform: scale(1.1,1.1);
+	box-shadow: 12px 18px 36px rgba(0, 0, 0, 0.8);
+}
+
+#facturaDetalle{
+	font-family: consolas;
+	text-align: center;
+}
+
+#tablaCliente{
+	font-family: consolas;
+	width: 48%;
+	margin: 0 auto;
+	font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 3px;
+    border-color:#474BE2;
+    border-radius: 12px;
+}
+
+th{
+	font-size: 18px;
+	background-color: #474BE2;
+	color: white;
+}
+
+th , td{
+	padding: 10px;
+	text-align: center;
+	border-bottom: 3px solid #474BE2;
+}
+
+tr{
+	transition-duration: 0.5s;
+}
+
+tr:hover{
+	background-color: #474BE2;
+	color: white;
+}
+
+#cajaLink{
+	margin: 0 auto;
+	margin-top: 20px;
+	align-items: center;
+  	display: flex;
+  	justify-content: center;
+  	background-color: #474BE2;
+  	width: 200px;
+  	height: 50px;
+	box-shadow: 6px 8px 22px rgba(0, 0, 0, 0.6);
+	font-size: 18px;
+	font-family: consolas;
+	border-radius: 8px;
+	transition: 0.01s 0.01s;
+	text-align: center;
+	cursor: pointer;
+}
+
+a{
+	color: white;
+}
+
+#cajaLink:hover{
+	background-color: #7878D1;
+	transform: scale(1.1,1.1);
+	box-shadow: 12px 18px 36px rgba(0, 0, 0, 1.2);
+}

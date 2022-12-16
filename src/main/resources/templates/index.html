@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" th:href="@{/styles/style2.css}">
+	<title th:text="${titulo}"></title>
+</head>
+<body>
+
+	<header>
+		<h1 id="titulo" th:text="${titulo}"></h1>
+	</header>
+	<div class="contenido">
+		<div id="cajaProceso" th:text="${objeto}"></div>
+		<div id="cajaLink"> 
+			<a th:href="@{http://localhost:8082/factura/ver}">SEE BILL</a> 
+		</div>
+	</div>
+
+</body>
+</html>
